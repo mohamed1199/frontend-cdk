@@ -14,13 +14,13 @@ export class FrontendStack extends cdk.Stack {
     const bucket = new Bucket(this, "Bucket", {
       websiteIndexDocument: "index.html",
       websiteErrorDocument: "error.html",
+      bucketName: "med.frontend.cdk",
       blockPublicAccess: BlockPublicAccess.BLOCK_ALL,
     })
 
     const deployment = new BucketDeployment(this, 'ReactAppDeployment', {
       sources: [Source.asset("./build")], // path to your React app build directory
       destinationBucket: bucket,
-
     });
 
     const oai = new OriginAccessIdentity(this, "oai");
