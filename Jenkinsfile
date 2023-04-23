@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_DEFAULT_REGION ='us-east-1'
-        PROJECT_NAME = 'ecs-service-test'
+        PROJECT_NAME = 'frontend-cdk'
     }
 
     stages {
