@@ -15,6 +15,7 @@ export class FrontendStack extends cdk.Stack {
       websiteIndexDocument: "index.html",
       websiteErrorDocument: "error.html",
       bucketName: "med.frontend.cdk",
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
       blockPublicAccess: BlockPublicAccess.BLOCK_ALL,
     })
 
