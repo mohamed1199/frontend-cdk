@@ -1,0 +1,11 @@
+{
+ "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+ "extends": [
+  "config:base",
+ ],
+
+    "repositories": [
+        "mohamed1199/frontend-cdk"
+    ],
+    "autodiscover": true
+}
