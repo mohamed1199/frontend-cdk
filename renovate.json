@@ -1,7 +1,7 @@
 {
  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
  "extends": [
-  "config:base",
+  "config:base"
  ],
-"repositories": [ "mohamed1199/nodeapp"],
+"repositories": [ "mohamed1199/nodeapp"]
 }
