@@ -3,8 +3,5 @@
  "extends": [
   "config:base",
  ],
-
-    "repositories": [
-        "mohamed1199/frontend-cdk"
-    ],
+"repositories": [ "mohamed1199/nodeapp"],
 }
